@@ -1,1 +1,3 @@
-"# Bank-Chrun-Prediction" 
+## Bank Churn Prediction using ML.
+
+This project utilizes data analysis and machine learning techniques to predict customer churn in banking. By cleaning and extracting relevant features from historical data, it identifies patterns indicative of customer attrition. Through the development and testing of predictive models, banks gain valuable insights to proactively address customer retention, ensuring long-term satisfaction and loyalty
