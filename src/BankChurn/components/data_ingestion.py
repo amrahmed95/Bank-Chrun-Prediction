@@ -1,5 +1,3 @@
-# Update Components
-
 import os
 import requests
 import urllib.request as request
