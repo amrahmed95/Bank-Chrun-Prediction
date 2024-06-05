@@ -10,6 +10,7 @@ COLUMNS:
   NumOfProducts: int64
   IsActiveMember: int64
   EstimatedSalary: int32
+  Exited: int64
 
 TARGET_COLUMN:
   name: Exited
