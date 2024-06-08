@@ -27,9 +27,9 @@ class DataTransformationClass:
         return df
 
     def resample_data(self, df):
-        x1 = df.drop(columns=['Exited'])
+        x1 = df.copy()
         y1 = df['Exited']
-        over = SMOTE(sampling_strategy=1)
+        over = SMOTE(sampling_strategy='minority')
         x1_resampled, y1_resampled = over.fit_resample(x1, y1)
         logger.info('Oversampled data')
         return x1_resampled, y1_resampled
