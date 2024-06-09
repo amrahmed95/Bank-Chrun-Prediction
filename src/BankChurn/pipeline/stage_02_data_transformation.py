@@ -1,6 +1,6 @@
 from src.BankChurn.components.data_transformation import DataTransformationClass
 from src.BankChurn.config.configuration import ConfigurationManager
-from src.BankChurn import logger, logging
+from src.BankChurn import logger
 import pandas as pd
 
 STAGE_NAME = "Data transformation stage"
