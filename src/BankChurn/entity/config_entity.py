@@ -27,9 +27,6 @@ class DataTransformationConfig:
     
 
 
-from dataclasses import dataclass
-from pathlib import Path
-
 
 @dataclass(frozen=True)
 class ModelTrainerConfig:
@@ -44,3 +41,16 @@ class ModelTrainerConfig:
     min_samples_leaf : list
     bootstrap : list
     target_column: str
+    
+    
+
+
+@dataclass(frozen=True)
+class ModelEvaluationConfig:
+    root_dir: Path
+    test_data_path: Path
+    model_path: Path
+    all_params: dict
+    metric_file_name: Path
+    target_column: str
+    mlflow_uri: str

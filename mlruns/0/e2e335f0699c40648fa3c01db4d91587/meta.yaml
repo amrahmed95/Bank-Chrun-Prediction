@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/End-to-End-DS-Projects/Bank%20Churn%20Prediction/mlruns/0/e2e335f0699c40648fa3c01db4d91587/artifacts
+end_time: 1718061454548
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e2e335f0699c40648fa3c01db4d91587
+run_name: casual-tern-70
+run_uuid: e2e335f0699c40648fa3c01db4d91587
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718061416444
+status: 3
+tags: []
+user_id: Amr Ahmed
