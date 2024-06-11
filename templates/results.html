@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Web App</title>
+        <title>Prediction</title>
         <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
@@ -40,116 +41,15 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="site-heading">
-                            <h1>Customer Bank Churn Prediction</h1>
-                            <span class="subheading">A Customer Bank Churn Checking Web App</span>
+                            <h1>Customer Bank Churn</h1>
+                             <h1>{{prediction}}</h1>
+                             <h2>{{message}} </h2>                           
+                            <span class="subheading"></span>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-
-
-        <!-- Main Content-->
-        <div class="container px-4 px-lg-5">
-
-           <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Form-v9 by Colorlib</title>
-	<!-- Mobile Specific Metas -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- Font-->
-	<link rel="stylesheet" type="text/css" href="static/css2/nunito-font.css">
-	<!-- Main Style Css -->
-    <link rel="stylesheet" href="static/css2/style.css"/>
-</head>
-<body class="form-v9">
-	<div class="page-content">
-		<div class="form-v9-content" style="background-image: url('static/assets/img/form-v9.jpg')">
-			<form class="form-detail" action="/predict" method="post">
-				<h2>Please Fill The Information</h2>
-				<div class="form-row-total">
-
-					<div class="form-row">
-                        <label for="CreditScore"> Credit Score [300 - 900]:</label>
-						<input type="text" name="CreditScore" id="CreditScore" class="input-text" placeholder="CreditScore" required>
-					</div>
-
-					<div class="form-row">
-                        <label for="Geography"> Geography [0=France , 1=Germany , 2=Spain ]:</label>
-						<input type="text" name="Geography" id="Geography" class="input-text" placeholder="Geography" required>
-					</div>
-
-				</div>
-
-
-				<div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="Gender"> Gender [1= Male, 0=Female]:</label>
-						<input type="text" name="Gender" id="Gender" class="input-text" placeholder="Gender" required>
-					</div>
-
-
-                    <div class="form-row">
-                        <label for="Age"> Age [min=18, max=100]:</label>
-						<input type="text" name="Age" id="Age" class="input-text" placeholder="Age" required>
-					</div>
-
-				</div>
-
-
-                <div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="Tenure"> Tenure [number of years that the customer has been a client of the bank]:</label>
-						<input type="text" name="Tenure" id="Tenure" class="input-text" placeholder="Tenure" required>
-					</div>
-
-                    <div class="form-row">
-                        <label for="Balance"> Balance:</label>
-						<input type="text" name="Balance" id="Balance" class="input-text" placeholder="Balance" required>
-					</div>
-
-				</div>
-
-
-                <div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="NumOfProducts"> No. of Products [1,2,3 or 4]:</label>
-						<input type="text" name="NumOfProducts" id="NumOfProducts" class="input-text" placeholder="NumOfProducts" required>
-					</div>
-
-                    <div class="form-row">
-                        <label for="IsActiveMember"> Is Active Member [1 or 0]:</label>
-						<input type="text" name="IsActiveMember" id="IsActiveMember" class="input-text" placeholder="IsActiveMember" required>
-					</div>
-
-				</div>
-
-
-                <div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="EstimatedSalary"> Estimated Salary:</label>
-						<input type="text" name="EstimatedSalary" id="EstimatedSalary" class="input-text" placeholder="EstimatedSalary" required>
-					</div>
-
-                </div>
-
-
-				<div class="form-row-last">
-					<input type="submit" name="register" class="register" value="Predict">
-				</div>
-			</form>
-		</div>
-	</div>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
-</html>
-
-        </div>
 
 
         <!-- Footer-->
