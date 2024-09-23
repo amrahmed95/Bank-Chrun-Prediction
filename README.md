@@ -10,3 +10,16 @@ In the world of banking, one of the biggest challenges is keeping customers happ
 We start by looking at all the data the bank has collected over time. Then, we clean it up and identify the most important parts. We use data cleaning to ensure the information is accurate and ready for analysis. After that, we employ clever techniques like feature engineering to extract the most useful bits of data. This helps us uncover patterns and trends that might predict if a customer will leave or not.
 
 Once we've got everything prepared, we're building machine learning models using simple but effective methods to predict which customers might leave the bank. But we're not stopping there. We're also testing these models with separate data to ensure their efficiency. By doing all this, we hope to provide banks with the tools they need to keep their customers happy and loyal for the long haul.
+
+
+- Workflow of the project
+
+1. Update config.yaml
+2. Update schema.yaml
+3. Update params.yaml
+4. Update the entity
+5. Update the configuration manager in src config
+6. Update the components
+7. Update the pipeline
+8. Update main.py
+9. Update the app.py

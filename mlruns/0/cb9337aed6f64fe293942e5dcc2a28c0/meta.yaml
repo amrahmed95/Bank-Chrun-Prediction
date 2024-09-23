@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/End-to-End-DS-Projects/Bank%20Churn%20Prediction/mlruns/0/cb9337aed6f64fe293942e5dcc2a28c0/artifacts
+end_time: 1727056899544
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cb9337aed6f64fe293942e5dcc2a28c0
+run_name: clumsy-newt-43
+run_uuid: cb9337aed6f64fe293942e5dcc2a28c0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727056879838
+status: 3
+tags: []
+user_id: Amr Ahmed
