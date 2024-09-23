@@ -12,5 +12,5 @@ joblib
 types-PyYAML
 Flask
 Flask-Cors
-pyarrow
+pyarrow=17.0.0
 -e .
