@@ -16,7 +16,6 @@ Once we've got everything prepared, we're building machine learning models using
 This project aims to predict customer churn for a banking service using a machine learning model. The pipeline includes data ingestion, preprocessing, transformation, model training, evaluation, and deployment through a Flask web application and a Streamlit app that allows users to interactively make predictions based on customer data.
 
 ## Table of Contents
-- [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Using Docker](#using-docker)
