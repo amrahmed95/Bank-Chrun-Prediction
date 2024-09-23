@@ -1,5 +1,5 @@
 # Step 1: Use an official Python runtime as the base image
-FROM python:latest
+FROM python:3.9-slim
 
 # Step 2: Set the working directory in the container
 WORKDIR /app
